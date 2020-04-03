@@ -16,7 +16,7 @@ Portfolio Site using Node and Express
 
 ## Deployment
 
-Clone the project - (https://github.com/stevenduval/static_node_and_express_site/) -  and open up the index.html file and try it out!
+Clone the project - (https://github.com/stevenduval/static_node_and_express_site/) -  
 
 ## Built With
 
