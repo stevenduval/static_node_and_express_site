@@ -13,4 +13,4 @@ app.set('view engine', 'pug');
 app.use(routes);
 
 // listen for activity on port 3000
-app.listen(3000, () => console.log('Updates made, refresh/go to localhost:3000'));
+app.listen(3000, () => console.log('Project running at localhost:3000'));
