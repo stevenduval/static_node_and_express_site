@@ -7,13 +7,18 @@ Utilizing Node, Express and Pug, this project creates a portfolio website that s
 
 
 ### Extras
-In the terminal, use npm start to initialize the app.
-Font changed to Open Sans
+In the terminal, use 'npm start' to initialize the app.
+
+Changed the to Open Sans
+
+Changed sidebar background and learn more font color, changed button background colors, changed intro and nav bottom border color
+
+Box shadow on hover of images on index page
 
 
 
 ### Installing
-Since this project does utilize node, you will need to ensure Node is installed on your machine (link is below).  Once you have installed Node you will need to install the project dependencies that are referenced in the package.json file.
+This project does utilize node, so you will need to ensure Node is installed on your machine (link is below).  Once you have installed Node you will need to install the project dependencies that are referenced in the package.json file.
 
 ## Deployment
 
