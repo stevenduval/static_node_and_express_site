@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: #8C8A80;
 }
 
 .button:hover{
@@ -58,7 +58,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background:#403F3B;
   color: #fff;
   box-shadow: none !important;
 }
@@ -71,7 +71,7 @@ a:hover{
   .portfolio-me a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #999;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,13 +79,13 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #FFF;
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #ccc;
 }
 
  .portfolio-breadcrumb a{
@@ -103,7 +103,7 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
 }
 
@@ -118,6 +118,10 @@ a:hover{
 
   .portfolio-index a{
     color: #222;
+  }
+
+  .portfolio-index img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .portfolio-index .cell{
