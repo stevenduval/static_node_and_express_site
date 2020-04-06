@@ -2,7 +2,7 @@
 const express = require('express');
 const routes = require('./routes');
 
-// variables to access active express instance
+// variable to access active express instance
 const app = express();
 
 // set static folder and default path

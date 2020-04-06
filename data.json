@@ -1,0 +1,51 @@
+{
+    "data": {
+        "projects": [
+            {
+                "id" : "0",
+                "project_name": "Random Quote Generator",
+                "description": "Utilizing JavaScript objects, this project selects a random quote with a different color background every 20 seconds.  You can also generate a new quote by clicking the button.",
+                "technologies": ["HTML","CSS","JavaScript"],
+                "live_link" : "https://stevenduval.github.io/random_quote_generator/",
+                "github_link" : "https://github.com/stevenduval/random_quote_generator/",
+                "image_urls" : ["/static/img/ran-quote-gen_550.jpg","/static/img/ran-quote-gen_1200_1.jpg","/static/img/ran-quote-gen_1200_2.jpg"]
+            },
+            {
+                "id" : "1",
+                "project_name": "List Pagination and Filtering",
+                "description": "The JavaScript within this project creates pagination to dispaly 10 students per page.  At the top, the search functionality will retrieve a list of students that match your entry.",
+                "technologies": ["HTML","CSS","JavaScript"],
+                "live_link" : "https://stevenduval.github.io/list_pagination_and_filtering/",
+                "github_link" : "https://github.com/stevenduval/list_pagination_and_filtering/",
+                "image_urls" : ["/static/img/pagination_550.jpg","/static/img/pagination_1200_1.jpg","/static/img/pagination_1200_2.jpg"]
+            },
+            {
+                "id" : "2",
+                "project_name": "Interactive Form",
+                "description": "Utilizing mainly jQuery, this project adds form validation to check for proper field formatting and adds interactive functionality to the t-shirt and activity area on a sample web form for a conference.",
+                "technologies": ["HTML","CSS","jQuery", "JavaScript"],
+                "live_link" : "https://stevenduval.github.io/interactive_form/",
+                "github_link" : "https://github.com/stevenduval/interactive_form/",
+                "image_urls" : ["/static/img/form_550.jpg","/static/img/form_1200_1.jpg","/static/img/form_1200_2.jpg"]
+            },
+            {
+                "id" : "3",
+                "project_name": "JavaScript OOP Game",
+                "description": "This project creates a game that utilizes objects where you must guess the correct randomly selected phrase in order to win.  You only get 5 lives so choose the letters, otherwise you will be presented with a loss.",
+                "technologies": ["HTML","CSS","JavaScript"],
+                "live_link" : "https://stevenduval.github.io/oop_game/",
+                "github_link" : "https://github.com/stevenduval/oop_game/",
+                "image_urls" : ["/static/img/oop_game_550.jpg","/static/img/oop_game_1200_1.jpg","/static/img/oop_game_1200_2.jpg"]
+            },
+            {
+                "id" : "4",
+                "project_name": "Public API Request",
+                "description": "This project utilizes Javascript to fetch 12 random 'employees' from an API and displays their information.  You can click on each 'employee' to see more details and also utilize the search feature at the top to narrow down the results.",
+                "technologies": ["HTML","CSS","JavaScript"],
+                "live_link" : "https://stevenduval.github.io/public_api_request/",
+                "github_link" : "https://github.com/stevenduval/public_api_request/",
+                "image_urls" : ["/static/img/employee_api_550.jpg","/static/img/employee_api_1200_1.jpg","/static/img/employee_api_1200_2.jpg"]
+            }
+        ]
+    }
+}
