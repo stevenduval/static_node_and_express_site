@@ -8,6 +8,7 @@ Utilizing Node, Express and Pug, this project creates a portfolio website that s
 
 ### Extras
 In the terminal, use npm start to initialize the app.
+Font changed to Open Sans
 
 
 
