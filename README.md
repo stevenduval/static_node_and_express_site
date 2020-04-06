@@ -12,7 +12,7 @@ In the terminal, use npm start to initialize the app.
 
 
 ### Installing
-Since this project does utilize node, you will need to ensure that is installed on your machine (link is below).  Once you have installed node you will also need to install the project dependencies that are referenced in the package.json file.
+Since this project does utilize node, you will need to ensure Node is installed on your machine (link is below).  Once you have installed Node you will need to install the project dependencies that are referenced in the package.json file.
 
 ## Deployment
 
