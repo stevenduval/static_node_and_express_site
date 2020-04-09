@@ -24,15 +24,18 @@ router.use((req, res, next) => {
     const err = new Error();
     err.status = 404;
     err.message = 'Oh no! Page Not Found.';
-    console.error(err.status, err.message);
-    res.render('error', {err});
+    next(err);
 });
 // route for 500 error
 router.use((err, req, res, next) => {
-    err.status = 500;
-    err.message = 'Oh no! Internal Server Error.';
-    console.error(err.status, err.message);
-    res.render('error', {err});
+    if (err.status) {
+        console.error(err.status, err.message); 
+    } else {
+        err.status = 500;
+        err.message = 'Oh no! Internal Server Error.';
+        console.error(err.status, err.message);
+    }
+        res.render('error', {err});
 });
 
 module.exports = router;
